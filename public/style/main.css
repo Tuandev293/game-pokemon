@@ -1,0 +1,59 @@
+body {
+  min-height: 100vh;
+  /* background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  ); */
+  background-image: url(/public/img/back.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.card {
+  position: relative;
+  height: 150px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.card img {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+.card .cost {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3px;
+  background: #f08b54;
+  color: white;
+}
+.form-login {
+  max-width: 22rem;
+}
+.wrap-game {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.wrap-game img {
+  width: 100%;
+}
+.btn-reset {
+  margin-right: 10px;
+}
+.btn {
+  width: 100px;
+  border: none;
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #ff9a8b 0%,
+    #ff6a88 55%,
+    #ff99ac 100%
+  );
+}

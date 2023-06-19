@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "tsc -w"
+  },
+  "name": "lap2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
